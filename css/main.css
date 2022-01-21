@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 500px;
+  background-image: url('../images/office.jpg');
+  background-size: cover;
+  text-align: center;
+  margin: auto;
+}
+
+.game-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0 30px 20px;
+}
+
+.btn-play {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  background-color: darkorange;
+  border: white 2px solid;
+  border-radius: 20%;
+  transition: transform 300ms ease-in;
+}
+
+.btn-play:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.timer {
+  width: 140px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10%;
+  border: black 3px solid;
+  box-sizing: border-box;
+  font-size: 40px;
+  line-height: 1.5;
+  visibility: hidden;
+}
+
+.counter {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  background-color: darkgreen;
+  border: white 2px solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  visibility: hidden;
+}
+
+.game-field {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.status-board {
+  display: block;
+  width: 380px;
+  background-color: #00000090;
+  border-radius: 20px;
+  text-align: center;
+  transform: translateY(-130%);
+  margin: auto;
+  padding: 20px 0;
+}
+
+.status--hidden {
+  display: none;
+}
+
+.btn-replay {
+  width: 70px;
+  height: 70px;
+  background-color: wheat;
+  border-radius: 50%;
+  font-size: 30px;
+  margin: auto;
+}
+
+.status-message {
+  font-family: 'PT Sans', sans-serif;
+  display: block;
+  color: white;
+  font-size: 45px;
+  margin: 15px 0;
+}
+
+.intro {
+  display: block;
+  width: 380px;
+  background-color: darkseagreen;
+  border-radius: 20px;
+  border: black 2px solid;
+  text-align: center;
+  transform: translateY(-110%);
+  margin: auto;
+  padding: 30px 30px;
+}
+
+.intro-message {
+  font-size: 22px;
+  color: #333;
+}
+
+.btn-close {
+  padding-top: 20px;
+  background-color: darkseagreen;
+  color: #333;
+  font-size: 30px;
+}

@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Debugging</title>
+  <link rel="stylesheet" href="./css/main.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <script defer src="./js/main.js"></script>
+  <script src="https://kit.fontawesome.com/6b637bbc0c.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
-  
+
+  <section class="game">
+    <header class="game-header">
+      <button class="btn-play"><i class="fas fa-play"></i></button>
+      <span class="timer">00:00</span>
+      <span class="counter">5</span>
+    </header>
+    <section class="game-field"></section>
+  </section>
+
+  <section class="status-board status--hidden">
+    <button class="btn-replay"><i class="fas fa-redo"></i></button>
+    <span class="status-message"></span>
+  </section>
+
+  <section class="intro status--hidden" >
+    <span class="intro-message"> How to Play</span>
+    <button class="btn-close"><i class="far fa-times-circle"></i></button>
+  </section>
+
 </body>
+
 </html>
