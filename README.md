@@ -7,7 +7,7 @@ The game is implemented using vanilla JavaScript.
 ## Demo
 #### 🦕 Live Demo 👉 [debug-game](https://debugging-game.netlify.app)
 <br/>
-<img width="45%" height="50%" src="https://github.com/lunnne/voice-diary-client/assets/94328456/eed80bc4-3bfa-4af0-83cf-9e5bd34ddf6f"/>
+<img width="40%" src="https://github.com/lunnne/project1-minigame/assets/94328456/e03de60e-1998-4167-ad2b-1f0d71733c1f"/>
 
 ## How to Play
 + Click on bugs as they move around the screen.
