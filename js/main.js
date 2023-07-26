@@ -15,6 +15,7 @@ const intro = document.querySelector('.intro')
 const closeBtn = document.querySelector('.btn-close')
 
 
+
 introMessage.innerText = `Welcome to the programmer's office.
 It is your first day of work. Your mission is to fix bugs in the code.
 
@@ -65,12 +66,9 @@ let bgm = {
   })
 }
 
-
 gameField.addEventListener('click', (event) => onFieldClick(event));
 gameField.addEventListener('mouseover', (event) => onFieldMouseOver(event));
 gameField.addEventListener('mouseout', (event) => onFieldMouseOut(event));
-
-
 
 // 이부분 로직을 꼭 기억하자, 
 gameBtn.addEventListener('click', () => {
